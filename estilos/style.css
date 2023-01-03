@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+section{
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 4px;
+    margin: auto;
+
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.274);
+}
+#imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div > p{
+    padding: 10px;
+}
+div > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+
+}
